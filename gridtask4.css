@@ -1,0 +1,72 @@
+#gridContainer{
+    display: grid;
+    grid-template-areas: 
+    'headArea headArea headArea headArea headArea ' 
+    'sideArea con1Area con1Area con1Area con1Area'
+    'sideArea con2Area con2Area con3Area con3Area'
+    'footArea footArea footArea  footArea  footArea';
+    gap: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 95vh;
+}
+#head{
+    grid-area: headArea;
+    background-color: purple;
+    border: 1px solid black;
+    display: grid;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#sideBar{
+    grid-area: sideArea;
+    background-color: aqua;
+    border: 1px solid black;
+    display: grid;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#con1{
+    grid-area: con1Area;
+    background-image: linear-gradient(to right,purple,blue,skyblue);
+    border: 1px solid black;
+    display: grid;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#con2{
+    grid-area: con2Area;
+    background-image: linear-gradient(to right,purple,blue,skyblue);
+    border: 1px solid black;
+    display: grid;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#con3{
+    grid-area: con3Area;
+    background-image: linear-gradient(to right,purple,blue,skyblue);
+    border: 1px solid black;
+    display: grid;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#foot{
+    grid-area: footArea;
+    background-color: purple;
+    border: 1px solid black;
+    display: grid;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
